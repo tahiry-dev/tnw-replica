@@ -1,0 +1,39 @@
+/* --- CSS Reset --- */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.hard-fork-title,
+.insight-title {
+  background: url("images/bitcoin.jpg");
+}
+
+.apps-title {
+  background: url("images/food.jpg");
+}
+
+.gear-title {
+  background: url("images/zeus-arc.jpg");
+}
+
+.tech-title {
+  background: url("images/Jumbo-left-background.png");
+}
+
+.creative-title {
+  background: url("images/call-of-duty.jpg");
+}
+
+.podium-title {
+  background: url("images/fintech.png");
+}
+
+.launch-title {
+  background: url("images/launch.jpg");
+}
+
+.distract-title {
+  background:url("images/gaming.jpg");
+}
