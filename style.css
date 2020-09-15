@@ -35,12 +35,24 @@ img {
   color: #aaa;
 }
 
+.orange-kind-color {
+  color: #f42;
+}
+
+.black-kind-color {
+  color: rgba(12, 10, 10, 0.788);
+}
+
 .parent-element {
   position: relative;
 }
 
 .child-element {
   position: absolute;
+}
+
+.cursor {
+  cursor: pointer;
 }
 
 /* -----------------------------------Mobile-version-------------------------------------- */
@@ -141,11 +153,9 @@ h6, h6 a {
 
 .box-image {
   width: 25%;
-  cursor: pointer;
 }
 
 .box {
-  display: flex;
   padding: 30px 15px 0;
 }
 
@@ -154,13 +164,105 @@ h6, h6 a {
 }
 
 h2 a {
-  color: #f42;
   font-size: 28px;
+}
+
+h2 a:hover {
+  color: #000;
 }
 
 .fa-sm {
   top: 6.7px;
   left: 150px;
+}
+
+.bold a:hover {
+  color: #f42;
+  text-decoration: underline;
+}
+
+.grey-color a:hover {
+  color: rgb(94, 88, 88);
+}
+
+/* --- funding --- */
+
+.funding {
+  padding: 25px;
+}
+
+.sub-menu {
+  flex-direction: column;
+  padding-bottom: 20px;
+}
+
+.fa-angle-right {
+  top: 5px;
+  left: 420px;
+}
+
+.sub-menu a {
+  padding: 5px;
+}
+
+.sub-menu a:hover {
+  color: black;
+}
+
+.funding-title {
+  background-color: #f42;
+  height: 40px;
+}
+
+h3 {
+left: 80px;
+top: 15px;
+}
+
+.funding-images {
+  width: 60px;
+  height: 60px;
+  left: 10px;
+  top: 10px;
+}
+
+.funding-details {  
+  background-color: rgba(255,68,34,.08);
+  padding: 10px;
+}
+
+.funding-details b {
+  font-size: 1.2em;
+  margin-left: 81px;
+}
+
+.funding-details p {
+  margin-left: 81px;
+  font-size: 0.8em;
+}
+
+.funding-type {
+  background-color: rgb(255,250,248);
+  padding: 10px 20px;
+}
+
+.investment,
+.business-type,
+hr,
+.raises {
+  margin-top: 10px;
+}
+
+.investment a:hover,
+.business-type a:hover {
+  color: rgba(97, 87, 87, 0.548);
+}
+
+hr {
+  height: 1px;
+  background-color: #f42;
+  border: none;
+
 }
 
 /* ---mandatory background --- */
