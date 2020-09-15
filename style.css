@@ -31,6 +31,10 @@ img {
   color: #fff;
 }
 
+.grey-color {
+  color: #aaa;
+}
+
 .parent-element {
   position: relative;
 }
@@ -117,15 +121,47 @@ img {
   font-size: 0.7em; 
 }
 
+.last-description {
+  bottom: 2px;
+  padding: 12px;
+  background:linear-gradient(rgba(255, 0, 0, 0.048) 60%,  rgba(7, 7, 7, 0.068) 60%, rgba(0, 0, 0, 0.938) 100%);
+  width: 100%;
+}
+
 h6, h6 a {
   color: rgba(255, 255, 255, 0.788);
   font-size: 0.95em;
 }
 
+/* ----latest new ----- */
 
+.news {
+  margin: 40px 0;
+}
 
+.box-image {
+  width: 25%;
+  cursor: pointer;
+}
 
+.box {
+  display: flex;
+  padding: 30px 15px 0;
+}
 
+.box-description {
+  margin-left: 15px;
+}
+
+h2 a {
+  color: #f42;
+  font-size: 28px;
+}
+
+.fa-sm {
+  top: 6.7px;
+  left: 150px;
+}
 
 /* ---mandatory background --- */
 
