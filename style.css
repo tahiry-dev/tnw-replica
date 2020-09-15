@@ -5,6 +5,100 @@
   box-sizing: border-box;
 }
 
+/* ---Global-CSS---- */
+
+img {
+  max-width: 100%;
+}
+
+.d-flex {
+  display: flex;
+}
+
+.d-none {
+  display: none;
+}
+
+.no-decoration {
+ text-decoration: none;
+}
+
+.black-color {
+  color: #000;
+}
+
+/* ------------------------Mobile-version-------------------------------------------- */
+
+/* --- navigation --- */
+
+.teriary-menu {
+  justify-content: space-between;
+}
+
+.tertiary-menu-left {
+  background-image: linear-gradient(to bottom right,#c09,#f42 85%);
+  height: 50px;
+  padding: 15px;
+}
+
+.tnw-image {
+  width: 80px;
+}
+
+.tertiary-menu-right {
+  margin-right: 10px;  
+}
+
+.search-icon {
+  margin-right: 15px;
+  margin-top: 18px;
+}
+
+.separator {
+  border-right: 1px solid rgba(207, 203, 203, 0.459);
+  margin-right: 14px;
+}
+
+.bar-icon {
+  margin-top: 17px;
+}
+
+.fa-search {
+  color: rgba(128, 128, 128, 0.405);
+}
+
+.fa-bars {
+  color: red;
+}
+
+.fa-bars:hover {
+  cursor: pointer;
+} 
+
+.follow-up-link {
+  background-color: #fd3;
+  padding: 20px;
+}
+
+.follow-up-link a {
+  font-weight: lighter;
+}
+
+.fa-arrow-right {
+  font-size: 9px;
+}
+
+/* ---Jumbotron--- */
+
+
+
+
+
+
+
+
+/* ---mandatory background --- */
+
 .hard-fork-title,
 .insight-title {
   background: url("images/bitcoin.jpg");
