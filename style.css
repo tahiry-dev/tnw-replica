@@ -55,6 +55,10 @@ img {
   cursor: pointer;
 }
 
+.line-through {
+  text-decoration: line-through;
+}
+
 /* -----------------------------------Mobile-version-------------------------------------- */
 
 /* --- navigation --- */
@@ -151,7 +155,8 @@ h6, h6 a {
   width: 25%;
 }
 
-.box {
+.box,
+.deals-box {
   padding: 30px 15px 0;
 }
 
@@ -278,6 +283,17 @@ hr {
  left: 140px;
 }
 
+.angle-apps {
+  top: 4px;
+  left: 70px;
+}
+
+.angle-creative {
+  top: 4px;
+  left: 110px;
+}
+
+
 .miscellaneous-top-box {
   margin-top: 13px;
 }
@@ -330,3 +346,42 @@ hr {
   color: red;
   margin-right: 5px;
 }
+
+/* ---deals section--- */
+
+.deals-box {
+  clear: both;
+}
+
+.deals-description {
+  margin-left: 15px;
+}
+
+.deals-description a:hover {
+  color: #f42;
+  text-decoration: underline;
+}
+
+.deals-heading {
+  float: left;
+  width: 80%;
+}
+
+.deals-angle {
+  top: 4.5px;
+  left: 150px;
+}
+
+.deals-follow-up {
+  float: right;
+  margin: 10px 0;
+}
+
+.deals-follow-up a:hover {
+  color: #000;
+}
+
+.true-price {
+  color: rgb(26, 23, 23);
+}
+
