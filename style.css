@@ -275,7 +275,7 @@ hr {
 
 .miscellaneous {
   margin-top: 30px;
-  padding: 2px;
+  padding: 17px;
 }
 
 .angle-fork {
@@ -383,5 +383,38 @@ hr {
 
 .true-price {
   color: rgb(26, 23, 23);
+}
+
+/* --- footer --- */
+
+footer {
+  margin-top: 45px;
+}
+
+.menus {
+  background-color: #131313;;
+}
+.icon-back {
+  border: 1px solid rgb(97, 90, 90);
+  background-color: rgb(97, 90, 90);
+  border-radius: 100%;
+  padding: 10px;
+}
+
+.icon-back:hover {
+  border: 2px solid rgb(97, 90, 90);
+  background-color: rgb(12, 10, 10);
+}
+
+.footer-menu a {
+  color: #555;
+}
+
+.footer-menu a:hover {
+  color: rgb(197, 186, 186);
+}
+
+.credits {
+  background-color: #000;
 }
 
