@@ -7,8 +7,8 @@
 
 /* ---Global-CSS---- */
 
-img {
-  max-width: 100%;
+main {
+  padding: 0 15px;
 }
 
 .d-flex {
@@ -109,15 +109,18 @@ img {
 
 .follow-up-link {
   background-color: #fd3;
-  padding: 20px;
+  text-align: center;
+  padding: 20px 0;
+  width: 100%;
 }
 
 .follow-up-link a {
   font-weight: lighter;
+  font-size: 0.82em; 
 }
 
 .fa-arrow-right {
-  font-size: 9px;
+  font-size: 0.6em;
 }
 
 /* ---Jumbotron--- */
@@ -128,12 +131,13 @@ img {
   bottom: 2px;
   padding: 12px;
   background: linear-gradient(rgba(255, 255, 255, 0) 0%, rgba(0, 0, 0, 0.781) 50%, rgba(0, 0, 0, 0.938) 100% );
+  width: 100%;
 }
 
 
 .jumbo-feature-image {
   width: 100%;
-  height: 150px;
+  height: auto;
 }
 
 .description {
@@ -156,8 +160,10 @@ h6, h6 a {
 }
 
 .box,
-.deals-box {
-  padding: 30px 15px 0;
+.deals-box,
+.funding,
+.miscellaneous {
+  padding: 30px 0;
 }
 
 .box-description {
@@ -188,10 +194,6 @@ h2 a:hover {
 
 /* --- funding --- */
 
-.funding {
-  padding: 25px;
-}
-
 .sub-menu {
   flex-direction: column;
   padding-bottom: 20px;
@@ -204,7 +206,12 @@ h2 a:hover {
 
 .angle-right {
   top: 5px;
-  left: 98%;
+  left: 310px;
+}
+
+.long-title {
+  font-size: 1.3em;
+  font-weight: bold;
 }
 
 .sub-menu a {
@@ -273,11 +280,6 @@ hr {
 
 /* --- miscellaneous --- */
 
-.miscellaneous {
-  margin-top: 30px;
-  padding: 17px;
-}
-
 .angle-fork {
  top: 4px;
  left: 140px;
@@ -308,9 +310,17 @@ hr {
   padding: 10px;
 }
 
+.latest-description {
+  width: 67%;
+}
+
+.latest-image-block {
+  width: 30%;
+}
+
 .latest-image {
-  width: 90px;
-  height: 80px;
+  width: 100%;
+  height: 100%;
 }
 
 .latest-paragraph {
@@ -363,18 +373,17 @@ hr {
 }
 
 .deals-heading {
-  float: left;
-  width: 80%;
+  width: 60%;
 }
 
 .deals-angle {
-  top: 4.5px;
+  top: 4px;
   left: 150px;
 }
 
 .deals-follow-up {
   float: right;
-  margin: 10px 0;
+  margin-top: 10px;
 }
 
 .deals-follow-up a:hover {
@@ -392,29 +401,57 @@ footer {
 }
 
 .menus {
-  background-color: #131313;;
+  background-color: #131313;
+  width: 100%;
+  padding: 10%;
 }
+
+.social-shares {
+  text-align: center;
+}
+
+.social-shares a {
+  margin-right: 5px;
+}
+
 .icon-back {
-  border: 1px solid rgb(97, 90, 90);
-  background-color: rgb(97, 90, 90);
+  border: 1px solid rgb(44, 42, 42);
+  background-color: rgb(44, 42, 42);
   border-radius: 100%;
-  padding: 10px;
+  padding: 3.5%;
 }
 
 .icon-back:hover {
-  border: 2px solid rgb(97, 90, 90);
+  border: 1px solid rgb(44, 42, 42);
   background-color: rgb(12, 10, 10);
+  padding: 3.5%;
+}
+
+.footer-menu {
+  margin-top: 20px;
+  text-align: center;
+  width: 100%;
 }
 
 .footer-menu a {
-  color: #555;
+  color: rgba(240, 234, 234, 0.753);
+  font-size: 0.8em;
+  margin-right: 2px;
 }
 
 .footer-menu a:hover {
-  color: rgb(197, 186, 186);
+  color: rgba(255, 255, 255, 0.952);
 }
 
 .credits {
   background-color: #000;
+  width: 100%;
+  padding: 10%;
+  text-align: center;
+}
+
+.foot-tnw-image {
+  width: 15%;
+  height: auto;
 }
 
