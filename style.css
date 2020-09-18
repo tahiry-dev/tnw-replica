@@ -620,7 +620,6 @@ footer {
   .all-miscellaneous-boxes {
     display: grid;
     grid-template-columns: repeat(2, auto);
-    grid-template-rows: repeat(5, auto);
     grid-gap:1% 3%;
   }
 
@@ -641,9 +640,14 @@ footer {
   }
 
   /* ---footer--- */
+
   .foot-tnw-image {
     width: 8%;
     height: auto;
+  }
+
+  .credits {
+    padding: 5%;
   }
 
   .credits p {
@@ -663,7 +667,79 @@ footer {
   .top-menu-right a {
     font-size: 0.9em;
   }
-  
+
+  .follow-up-link{
+    position: relative;
+  }
+
+  .follow-up-link a {
+    position: absolute;
+    left: 15px;
+    bottom: 14px;
+  }
+
+  /* ---jumbotron--- */
+
+  .date {
+    display: block;
+    font-size: 1.1em;
+    font-weight: bold;
+    position: absolute;
+    right: 2%;
+    top: 5%;
+    color: white;
+  }
+
+  .big-tnw-logo {
+    display: block;
+    width: 250px;
+    position: absolute;
+    left: 2%;
+    top: 8%;
+  }
+
+  /* ---main-news--- */
+
+  .boxes-of-news {
+    display: grid;
+    grid-template-columns: repeat(4, auto);
+    grid-column-gap: 5%;
+  }
+
+  /* ---main-fundings--- */
+
+  .last-funding-box {
+    display: grid;
+  }
+
+  .boxes-of-funding {
+    display: grid;
+    grid-template-columns: repeat(4, auto);
+    grid-column-gap: 5%;
+  }
+
+  .funding-type {
+    background-color: rgb(255,250,248);
+    padding: 10px 20px;
+    height: 215px;
+  }
+
+  /* ---main miscellaneous--- */
+
+  .all-miscellaneous-boxes {
+    display: grid;
+    grid-template-columns: repeat(3, auto);
+    grid-gap: 1% 3%;
+  }
+
+  /* ---main deals--- */
+
+  .deals-box-wrapper {
+    display: grid;
+    grid-template-columns: repeat(4, auto);
+    grid-column-gap: 3%;
+  }
+
 }
 
 @media screen and (min-width: 1114px) {
@@ -692,7 +768,6 @@ footer {
     border: none;
     border-radius: 2px;
   }
-
 }
 
 @media screen and (min-width: 1214px) {
