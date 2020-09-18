@@ -71,6 +71,11 @@ main {
   margin-right: 20px;
 }
 
+
+.pl {
+  padding-left: 20px;
+}
+
 .space-btw {
   justify-content: space-between;
 }
@@ -88,7 +93,7 @@ main {
 
 .logo-on-left {
   background-image: linear-gradient(to bottom right,#c09,#f42 85%);
-  width: 200px;
+  min-width: 120px;
   height: 50px;
   padding: 15px;
 }
@@ -98,20 +103,25 @@ main {
 }
 
 .menu-on-right {
-  width: 85%;
+  width: 100%;
 }
 
 .top-menu-right {
   background-color: black;
-  padding: 7px 15px;
+  padding: 10px 15px;
 }
 
 .top-menu-right a {
-  font-size: 13px;
+  font-size: 0.8em;
 }
 
 .bottom-menu-right {
-  padding: 20px;
+  padding: 20px 10px 20px 15px;
+  width: 100%;
+}
+
+.bottom-menu-right a {
+  font-size: 0.98em;
 }
 
 .search-icon,
@@ -154,6 +164,10 @@ main {
 
 .fa-arrow-right {
   font-size: 0.6em;
+}
+
+.on-left {
+  width: 70%;
 }
 
 /* ---Jumbotron--- */
@@ -487,25 +501,82 @@ footer {
   height: auto;
 }
 
-/* --------------------------------Tablet View----------------------------------------- */
-/* ---navigation--- */
-@media screen and (min-width:768px) {
+@media screen and (min-width: 768px){
+
+  /* ---Navigation--- */
+
   .tnw-image {
-    width: 80px;
     top: 32px;
   }
 
-  .top-menu-right,
+  .top-menu-right {
+     display: flex;
+  }
+
   .bottom-menu-right {
     display: block;
   }
-
+  
   .icon-on-right {
     display: none;
   }
 
+  .search-icon {
+    display: flex;
+  }
+
   .logo-on-left {
     height: auto;
+    width: 110px;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+
+  /* ---Navigation--- */
+
+  .logo-on-left {
+    display: none;
+  }
+
+  .top-menu-right a {
+    font-size: 0.9em;
+  }
+  
+}
+
+@media screen and (min-width: 1114px) {
+
+  /* ---Navigation--- */
+
+  .bottom-on-right {
+    display: flex;
+    align-items: center;
+    height: 15px;
+    margin-left: 25px;
+  }
+
+  .logo-2020 {
+    font-weight: bolder;
+    font-size: 1.5em;
+  }
+  time {
+    font-size: 1.5em;
+    color: red;
+  }
+  button {
+    background-color: #00CCCC;
+    padding: 10px 15px;
+    color: white;
+    border: none;
+    border-radius: 2px;
+  }
+
+}
+
+@media screen and (min-width: 1214px) {
+  .hidden-link {
+    display: flex;
   }
 }
 
