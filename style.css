@@ -199,7 +199,7 @@ h6, h6 a {
 /* ----latest new ----- */
 
 .news {
-  margin: 40px 0;
+  margin: 40px 0 20px;
 }
 
 .box-image {
@@ -355,6 +355,7 @@ hr {
 .latest {
   background-color: rgba(255,68,34,.08);
   padding: 10px;
+  height: 100px;
 }
 
 .latest-description {
@@ -406,10 +407,6 @@ hr {
 
 /* ---deals section--- */
 
-.deals-box {
-  clear: both;
-}
-
 .deals-description {
   margin-left: 15px;
 }
@@ -430,7 +427,7 @@ hr {
 
 .deals-follow-up {
   float: right;
-  margin-top: 10px;
+  margin-top: -25px;
 }
 
 .deals-follow-up a:hover {
@@ -465,7 +462,7 @@ footer {
   border: 1px solid rgb(44, 42, 42);
   background-color: rgb(44, 42, 42);
   border-radius: 100%;
-  padding: 3.5%;
+  padding: 2%;
 }
 
 .icon-back:hover {
@@ -529,6 +526,130 @@ footer {
     height: auto;
     width: 110px;
   }
+
+  .follow-up-link{
+    position: relative;
+  }
+
+  .follow-up-link a {
+    position: absolute;
+    left: 135px;
+    bottom: 14px;
+  }
+
+  /* ---Jumbotron--- */
+
+  .jumbotron {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+  .jumbotron-left {
+    width: 60%;
+  }
+
+  .right-jumbotron-elements {
+    width: 40%;
+  }
+
+  .jumbo-feature-image {
+    height: 99%;
+    padding-right: 5px;
+  }
+  
+  .free-event {
+    margin-bottom: 5px;
+  }
+
+  .jumbo-description h1, .jumbo-description h5 {
+    font-size: 1.7em;
+    line-height: 0.8;
+  }
+
+  h6 {
+    margin-top: 15px;
+  }
+
+  /* ---main news--- */
+  
+  .boxes-of-news {
+    display: grid;
+    grid-template-columns: repeat(3, auto);
+    grid-column-gap: 5%;
+  }
+
+  .box-description {
+    margin-left: 0;
+    margin-top: 5px;
+  }
+
+  .box {
+    display: block;
+  }
+
+  .box-image {
+    width: 100%;
+    height: 150px;
+  }
+
+  /* ---main funding--- */
+
+  .last-funding-box {
+    display: none;
+  }
+
+  .boxes-of-funding {
+    display: grid;
+    grid-template-columns: repeat(3, auto);
+    grid-column-gap: 5%;
+  }
+
+  .sub-menu {
+    display: flex;
+    flex-direction: row;
+  }
+  .add-info::after,
+  .update-by-email::after {
+    content: '\007C';
+    margin-left: 10px;
+  }
+
+  /* ---main miscellaneous--- */
+
+  .all-miscellaneous-boxes {
+    display: grid;
+    grid-template-columns: repeat(2, auto);
+    grid-template-rows: repeat(5, auto);
+    grid-gap:1% 3%;
+  }
+
+  /* ---main deals--- */
+
+  .deals {
+    margin-top: 140px;
+  }
+
+  .deals-box {
+    display: block;
+  }
+
+  .deals-box-wrapper {
+    display: grid;
+    grid-template-columns: repeat(3, auto);
+    grid-column-gap: 3%;
+  }
+
+  /* ---footer--- */
+  .foot-tnw-image {
+    width: 8%;
+    height: auto;
+  }
+
+  .credits p {
+    font-size: 0.9em;
+  }
+
 }
 
 @media screen and (min-width: 1024px) {
