@@ -125,8 +125,8 @@ h2 a {
 }
 
 .footer-menu a {
-  font-size: 0.8em;
-  margin-right: 2px;
+  font-size: 0.9em;
+  margin-right: 10px;
 }
 
 .sub-menu a {
@@ -494,16 +494,21 @@ footer {
 }
 
 .foot-tnw-image {
-  width: 5%;
+  width: 3rem;
   height: auto;
   margin-right: 1%;
+}
+
+.credits p {
+  font-size: 1.1rem;
+  font-weight: bold;
 }
 
 @media screen and (min-width: 768px) {
   /* ---Navigation--- */
 
   .tnw-image {
-    top: 32px;
+    top: 39px;
   }
 
   h6 {
@@ -643,17 +648,8 @@ footer {
 
   /* ---footer--- */
 
-  .foot-tnw-image {
-    width: 8%;
-    height: auto;
-  }
-
   .credits {
     padding: 5%;
-  }
-
-  .credits p {
-    font-size: 0.9em;
   }
 }
 
@@ -754,6 +750,7 @@ footer {
   .logo-2020 {
     font-weight: bolder;
     font-size: 1.5em;
+    width: 140px;
   }
 
   .time {
