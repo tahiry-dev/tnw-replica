@@ -16,7 +16,7 @@ For this project I have created a replica of the TNW website. This replica is re
 
 ## Live Demo
 
-To quickly see my project in action, visit this [live demo](https://raw.githack.com/tahiry-dev/tnw-replica/replica-branch/index.html) 
+To quickly see my project in action, visit this [live demo](https://raw.githack.com/tahiry-dev/tnw-replica/master/index.html) 
 
 ## Authors
 
