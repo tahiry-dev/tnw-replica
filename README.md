@@ -1,6 +1,10 @@
 # The Next Website Replica
 
+<<<<<<< HEAD
 For this project I have created a replica of the TNW website. This replica is responsive and contains four breakpoints. Here are the screenshots:
+=======
+For this project I have created a replica of the TNW website. This replica is responsive and contains Three breakpoints, small, medium and large views. Here are the screenshots:
+>>>>>>> 535f2e2ba9d1ad55eec19ae53c379c4f6bc6f192
 
 ![screenshot](https://user-images.githubusercontent.com/47100064/93768018-6f523400-fc21-11ea-94c1-70415c3d0145.png)
 ![screenshot](https://user-images.githubusercontent.com/47100064/93768073-8bee6c00-fc21-11ea-8d7d-acf891ffad5e.png)
