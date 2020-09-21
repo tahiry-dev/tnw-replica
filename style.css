@@ -20,7 +20,7 @@ main {
 }
 
 .no-decoration {
- text-decoration: none;
+  text-decoration: none;
 }
 
 .black-color {
@@ -71,13 +71,16 @@ main {
   margin-right: 20px;
 }
 
-
 .pl {
   padding-left: 20px;
 }
 
 .space-btw {
   justify-content: space-between;
+}
+
+img {
+  object-fit: cover;
 }
 
 /* -----------------------------------Mobile-version-------------------------------------- */
@@ -87,12 +90,12 @@ main {
 .header-wrapper {
   position: sticky;
   top: 0;
-  background-color:rgba(255, 255, 255);
+  background-color: rgba(255, 255, 255);
   z-index: 1;
 }
 
 .logo-on-left {
-  background-image: linear-gradient(to bottom right,#c09,#f42 85%);
+  background-image: linear-gradient(to bottom right, #c09, #f42 85%);
   min-width: 120px;
   height: 50px;
   padding: 15px;
@@ -100,6 +103,38 @@ main {
 
 .tnw-image {
   width: 80px;
+}
+
+h6,
+h6 a {
+  color: rgba(255, 255, 255, 0.788);
+  font-size: 0.95em;
+}
+
+h2 a {
+  font-size: 28px;
+}
+
+.bottom-menu-right a {
+  font-size: 0.98em;
+}
+
+.bottom-menu-right {
+  padding: 20px 10px 20px 15px;
+  width: 100%;
+}
+
+.footer-menu a {
+  font-size: 0.8em;
+  margin-right: 2px;
+}
+
+.sub-menu a {
+  padding: 5px;
+}
+
+.social-shares a {
+  margin-right: 5px;
 }
 
 .menu-on-right {
@@ -115,13 +150,13 @@ main {
   font-size: 0.8em;
 }
 
-.bottom-menu-right {
-  padding: 20px 10px 20px 15px;
-  width: 100%;
+.follow-up-link a {
+  font-weight: lighter;
+  font-size: 0.82em;
 }
 
-.bottom-menu-right a {
-  font-size: 0.98em;
+h2 a:hover {
+  color: #000;
 }
 
 .search-icon,
@@ -148,18 +183,13 @@ main {
 
 .fa-bars:hover {
   cursor: pointer;
-} 
+}
 
 .follow-up-link {
   background-color: #fd3;
   text-align: center;
   padding: 20px 0;
   width: 100%;
-}
-
-.follow-up-link a {
-  font-weight: lighter;
-  font-size: 0.82em; 
 }
 
 .fa-arrow-right {
@@ -172,15 +202,13 @@ main {
 
 /* ---Jumbotron--- */
 
-
 .jumbo-description,
 .miscellaneous-description {
   bottom: 2px;
   padding: 12px;
-  background: linear-gradient(rgba(255, 255, 255, 0) 0%, rgba(0, 0, 0, 0.781) 50%, rgba(0, 0, 0, 0.938) 100% );
+  background: linear-gradient(rgba(255, 255, 255, 0) 0%, rgba(0, 0, 0, 0.781) 50%, rgba(0, 0, 0, 0.938) 100%);
   width: 100%;
 }
-
 
 .jumbo-feature-image {
   width: 100%;
@@ -188,12 +216,7 @@ main {
 }
 
 .description {
-  font-size: 0.7em; 
-}
-
-h6, h6 a {
-  color: rgba(255, 255, 255, 0.788);
-  font-size: 0.95em;
+  font-size: 0.7em;
 }
 
 /* ----latest new ----- */
@@ -215,14 +238,6 @@ h6, h6 a {
 
 .box-description {
   margin-left: 15px;
-}
-
-h2 a {
-  font-size: 28px;
-}
-
-h2 a:hover {
-  color: #000;
 }
 
 .fa-sm {
@@ -261,10 +276,6 @@ h2 a:hover {
   font-weight: bold;
 }
 
-.sub-menu a {
-  padding: 5px;
-}
-
 .sub-menu a:hover {
   color: black;
 }
@@ -275,8 +286,8 @@ h2 a:hover {
 }
 
 h3 {
-left: 80px;
-top: 15px;
+  left: 80px;
+  top: 15px;
 }
 
 .funding-images {
@@ -286,8 +297,8 @@ top: 15px;
   top: 10px;
 }
 
-.funding-details {  
-  background-color: rgba(255,68,34,.08);
+.funding-details {
+  background-color: rgba(255, 68, 34, 0.08);
   padding: 10px;
 }
 
@@ -302,7 +313,7 @@ top: 15px;
 }
 
 .funding-type {
-  background-color: rgb(255,250,248);
+  background-color: rgb(255, 250, 248);
   padding: 10px 20px;
 }
 
@@ -322,14 +333,13 @@ hr {
   height: 1px;
   background-color: #f42;
   border: none;
-
 }
 
 /* --- miscellaneous --- */
 
 .angle-fork {
- top: 4px;
- left: 140px;
+  top: 4px;
+  left: 140px;
 }
 
 .angle-apps {
@@ -342,7 +352,6 @@ hr {
   left: 110px;
 }
 
-
 .miscellaneous-top-box {
   margin-top: 13px;
 }
@@ -353,7 +362,7 @@ hr {
 }
 
 .latest {
-  background-color: rgba(255,68,34,.08);
+  background-color: rgba(255, 68, 34, 0.08);
   padding: 10px;
   height: 100px;
 }
@@ -454,10 +463,6 @@ footer {
   text-align: center;
 }
 
-.social-shares a {
-  margin-right: 5px;
-}
-
 .icon-back {
   border: 1px solid rgb(44, 42, 42);
   background-color: rgb(44, 42, 42);
@@ -477,11 +482,6 @@ footer {
   width: 100%;
 }
 
-.footer-menu a {
-  font-size: 0.8em;
-  margin-right: 2px;
-}
-
 .footer-menu a:hover {
   color: rgba(255, 255, 255, 0.952);
 }
@@ -494,26 +494,30 @@ footer {
 }
 
 .foot-tnw-image {
-  width: 15%;
+  width: 5%;
   height: auto;
+  margin-right: 1%;
 }
 
-@media screen and (min-width: 768px){
-
+@media screen and (min-width: 768px) {
   /* ---Navigation--- */
 
   .tnw-image {
     top: 32px;
   }
 
+  h6 {
+    margin-top: 15px;
+  }
+
   .top-menu-right {
-     display: flex;
+    display: flex;
   }
 
   .bottom-menu-right {
     display: block;
   }
-  
+
   .icon-on-right {
     display: none;
   }
@@ -527,7 +531,7 @@ footer {
     width: 110px;
   }
 
-  .follow-up-link{
+  .follow-up-link {
     position: relative;
   }
 
@@ -544,7 +548,7 @@ footer {
     display: flex;
     flex-wrap: wrap;
   }
-  
+
   .jumbotron-left {
     width: 60%;
   }
@@ -557,22 +561,19 @@ footer {
     height: 99%;
     padding-right: 5px;
   }
-  
+
   .free-event {
     margin-bottom: 5px;
   }
 
-  .jumbo-description h1, .jumbo-description h5 {
+  .jumbo-description h1,
+  .jumbo-description h5 {
     font-size: 1.7em;
     line-height: 0.8;
   }
 
-  h6 {
-    margin-top: 15px;
-  }
-
   /* ---main news--- */
-  
+
   .boxes-of-news {
     display: grid;
     grid-template-columns: repeat(3, auto);
@@ -609,6 +610,7 @@ footer {
     display: flex;
     flex-direction: row;
   }
+
   .add-info::after,
   .update-by-email::after {
     content: '\007C';
@@ -620,7 +622,7 @@ footer {
   .all-miscellaneous-boxes {
     display: grid;
     grid-template-columns: repeat(2, auto);
-    grid-gap:1% 3%;
+    grid-gap: 1% 3%;
   }
 
   /* ---main deals--- */
@@ -653,11 +655,9 @@ footer {
   .credits p {
     font-size: 0.9em;
   }
-
 }
 
 @media screen and (min-width: 1024px) {
-
   /* ---Navigation--- */
 
   .logo-on-left {
@@ -668,7 +668,7 @@ footer {
     font-size: 0.9em;
   }
 
-  .follow-up-link{
+  .follow-up-link {
     position: relative;
   }
 
@@ -719,7 +719,7 @@ footer {
   }
 
   .funding-type {
-    background-color: rgb(255,250,248);
+    background-color: rgb(255, 250, 248);
     padding: 10px 20px;
     height: 215px;
   }
@@ -739,11 +739,9 @@ footer {
     grid-template-columns: repeat(4, auto);
     grid-column-gap: 3%;
   }
-
 }
 
 @media screen and (min-width: 1114px) {
-
   /* ---Navigation--- */
 
   .bottom-on-right {
@@ -757,12 +755,14 @@ footer {
     font-weight: bolder;
     font-size: 1.5em;
   }
-  time {
+
+  .time {
     font-size: 1.5em;
     color: red;
   }
+
   button {
-    background-color: #00CCCC;
+    background-color: #0cc;
     padding: 10px 15px;
     color: white;
     border: none;
@@ -775,4 +775,3 @@ footer {
     display: flex;
   }
 }
-
